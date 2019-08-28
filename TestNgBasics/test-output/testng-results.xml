@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="parallelTestCases" duration-ms="37017" started-at="2019-08-28T17:22:02Z" finished-at="2019-08-28T17:22:39Z">
+    <groups>
+    </groups>
+    <test name="parallelTests1" duration-ms="16999" started-at="2019-08-28T17:22:02Z" finished-at="2019-08-28T17:22:19Z">
+      <class name="parallelTeting.parallelExecution">
+        <test-method status="PASS" signature="loginZoho(java.lang.String)[pri:0, instance:parallelTeting.parallelExecution@3532ec19]" name="loginZoho" duration-ms="16965" started-at="2019-08-28T17:22:02Z" finished-at="2019-08-28T17:22:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginZoho -->
+      </class> <!-- parallelTeting.parallelExecution -->
+    </test> <!-- parallelTests1 -->
+    <test name="parallelTests2" duration-ms="37017" started-at="2019-08-28T17:22:02Z" finished-at="2019-08-28T17:22:39Z">
+      <class name="parallelTeting.parallelExecution">
+        <test-method status="PASS" signature="loginZoho(java.lang.String)[pri:0, instance:parallelTeting.parallelExecution@464bee09]" name="loginZoho" duration-ms="36988" started-at="2019-08-28T17:22:02Z" finished-at="2019-08-28T17:22:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[mozilla]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginZoho -->
+      </class> <!-- parallelTeting.parallelExecution -->
+    </test> <!-- parallelTests2 -->
+  </suite> <!-- parallelTestCases -->
+</testng-results>
